@@ -9,7 +9,7 @@ echo "Generating reports ..."
 
 echo "Running dev.py ..."
 for name in $names; do
-    python3 dev.py $name
+    python3 dev.py $name 1
 done
 
 echo "Running contr.py ..."
